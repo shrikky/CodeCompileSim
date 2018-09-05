@@ -21,11 +21,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HelloWorld_TargetProgram.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ExecutorFiles\HelloWorld_Executor.cpp">
       <Filter>Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\HelloWorld_Source.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

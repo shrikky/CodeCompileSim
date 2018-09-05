@@ -10,17 +10,19 @@ int main()
 	
 	string inputData;
 
+	system("cd");
 	ifstream fileStream("./InputFiles/Input.txt", ios::in | ios::out);
+
 	if (fileStream.is_open())
 	{
 		while (getline(fileStream, inputData))
 		fileStream.close();
 	}
 
-	system("cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/TargetFiles/ && g++ -o main.exe *.cpp");
-	string inputPath = "cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/TargetFiles/";
+	system("cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/ExecutorFiles && g++ -I E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/SourceFiles -o main.exe *.cpp");
+	string ExecPath = "cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/ExecutorFiles/";
 	string exec = "main.exe " + inputData;
-	string command = inputPath + "&&" + exec;
+	string command = ExecPath + "&&" + exec;
 	system(command.c_str());
 	return 0;
 }
