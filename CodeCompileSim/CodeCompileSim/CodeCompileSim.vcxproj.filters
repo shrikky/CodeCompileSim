@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Executor">
+      <UniqueIdentifier>{02c23396-6858-4754-8ba6-f313050e1543}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld_TargetProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExecutorFiles\HelloWorld_Executor.cpp">
+      <Filter>Executor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
