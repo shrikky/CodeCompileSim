@@ -16,15 +16,12 @@
     <Filter Include="Executor">
       <UniqueIdentifier>{02c23396-6858-4754-8ba6-f313050e1543}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{6286033f-a258-487b-aa22-7b46d76ce75f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ExecutorFiles\HelloWorld_Executor.cpp">
-      <Filter>Executor</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SourceCode\HelloWorld_Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

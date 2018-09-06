@@ -130,8 +130,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ExecutorFiles\HelloWorld_Executor.cpp" />
-    <ClCompile Include="..\SourceCode\HelloWorld_Source.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
