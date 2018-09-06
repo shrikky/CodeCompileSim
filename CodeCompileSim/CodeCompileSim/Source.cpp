@@ -19,7 +19,7 @@ int main()
 		fileStream.close();
 	}
 
-	system("cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/Infrastructure && g++ -I E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/ExecutorFiles -I E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/SourceFiles -o main.exe *.cpp");
+	system("cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/ExecutorFiles/ && g++ -I E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/SourceCode -o main.exe *.cpp");
 	string ExecPath = "cd E:/CodeCompileSim/CodeCompileSim/CodeCompileSim/ExecutorFiles/";
 	string exec = "main.exe " + inputData;
 	string command = ExecPath + "&&" + exec;
