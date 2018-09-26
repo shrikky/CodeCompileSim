@@ -27,5 +27,8 @@
     <ClCompile Include="..\ExecutorFiles\Initiator.cpp">
       <Filter>Executor</Filter>
     </ClCompile>
+    <ClCompile Include="ApplicationInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
